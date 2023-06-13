@@ -7,12 +7,26 @@
   flex-direction: column;
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
+  /*Variables de Colores*/
   --fondo: #f7f3d5;
   --fondomasoscuro: #ffdabf;
   --NavbaryFooter: #fa9b9b;
   --destacado: #e88087;
   --letras: #635063;
 }
+
+
 .letraDestacada {
   font-family: "Gasoek One", sans-serif;
+  color: var(--letras);
+}
+
+.Navbar {
+  background-color: var(--NavbaryFooter);
+  color: var(--letras);
+}
+
+.footer {
+  background-color: var(--NavbaryFooter);
+  color: var(--letras);
 }
