@@ -16,3 +16,9 @@
 .letraDestacada {
   font-family: "Gasoek One", sans-serif;
 }
+.mainSection{
+  flex-grow: 1;
+}
+.tituloDestacado{
+  color: var(--destacado);
+}
