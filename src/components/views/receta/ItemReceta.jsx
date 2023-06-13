@@ -10,7 +10,7 @@ const ItemReceta = () =>{
             <td className="tamanioCelda text-truncate">Ingredientes</td>
             <td className="tamanioCelda text-truncate">https://www.paulinacocina.net/wp-content/uploads/2020/04/budin-de-zanahoria-800x558.jpg</td>
             <td className="text-center">
-             <Button className="btnEditar mb-2 me-lg-1">
+             <Button className="btnEditar mb-2 mb-lg-0 me-md-1">
                 Editar </Button>
              <Button className="btnEliminar">
               Borrar </Button>

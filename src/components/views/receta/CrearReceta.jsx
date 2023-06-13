@@ -9,14 +9,14 @@ const CrearReceta = () => {
     const onSubmit = () =>{
         Swal.fire(
             "Guardado",
-            "El producto se guardó correctamente",
+            "La receta se guardó correctamente",
             `success`
         )
         reset()
     }
     return(
         <section className="mainSection container">
-           <Card className="cardForm"> 
+           <Card className="cardForm my-2"> 
             <Card.Title className="my-2 text-center tituloDestacado letraDestacada fs-1">Crear receta</Card.Title>
             <hr />
             <Card.Body>
