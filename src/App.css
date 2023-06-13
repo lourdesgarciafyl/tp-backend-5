@@ -1,5 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Gasoek+One&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gasoek+One&family=Roboto&display=swap");
+
 #root {
+  background-color: var(--fondo);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  --fondo: #f7f3d5;
+  --fondomasoscuro: #ffdabf;
+  --NavbaryFooter: #fa9b9b;
+  --destacado: #e88087;
+  --letras: #635063;
+}
+.letraDestacada {
+  font-family: "Gasoek One", sans-serif;
 }
