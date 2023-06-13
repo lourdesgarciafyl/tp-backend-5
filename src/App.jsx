@@ -10,7 +10,7 @@ import DetalleReceta from "./components/views/DetalleReceta";
 function App() {
 
   return (
-    <>  
+    <>
     </>
   )
 }

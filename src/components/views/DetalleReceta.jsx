@@ -12,8 +12,8 @@ const DetalleReceta = () => {
             />
           </Col>
           <Col md={6}>
-            <Card.Body>
-              <Card.Title>ESPAGUETI CON ALBONDIGAS</Card.Title>
+            <Card.Body className="fontoDetalle">
+              <Card.Title className="letraDestacada fs-2">ESPAGUETI CON ALBONDIGAS</Card.Title>
               <hr />
               <Card.Text>
               <span className="text-danger fw-semibold ">

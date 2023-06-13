@@ -25,6 +25,11 @@
   flex-grow: 1;
 }
 
+/*Pagina Detalle de Receta*/
+.fondoDetalle {
+  background-color: var(--fondomasoscuro);
+}
+
 /*Pagina administrador*/
 .tituloDestacado{
   color: var(--destacado);
@@ -79,3 +84,4 @@
   color: var(--letras);
 
 }
+
