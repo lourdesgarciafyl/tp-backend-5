@@ -22,3 +22,34 @@
 .tituloDestacado{
   color: var(--destacado);
 }
+
+.tamanioCelda{
+  max-width: 10rem;
+}
+#btnCrearReceta {
+  background-color: var(--destacado);
+  border-radius: 30px;
+  border: #f7f3d5;
+}
+
+#btnCrearReceta:hover {
+  background-color: var(--destacado);
+}
+
+.btnEditar {
+  background-color: rgb(250, 250, 120);
+  border-radius: 30px;
+}
+
+.btnEditar:hover {
+  background-color: rgb(242, 242, 60);
+}
+
+.btnEliminar {
+  background-color: rgb(250, 111, 111);
+  border-radius: 30px;
+}
+
+.btnEliminar:hover {
+  background-color: rgb(250, 87, 87);
+}
