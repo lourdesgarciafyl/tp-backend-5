@@ -8,9 +8,7 @@ function App() {
 
   return (
     <>
-     <Administrador></Administrador>
-     <CrearReceta></CrearReceta>
-     <EditarReceta></EditarReceta>
+
     </>
   )
 }
