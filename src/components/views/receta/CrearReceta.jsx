@@ -1,11 +1,17 @@
 import { Form, Button, Card } from "react-bootstrap";
 import { useForm } from "react-hook-form";
+import Swal from "sweetalert2";
 
 const CrearReceta = () => {
 
     const {register, handleSubmit, formState: {errors}, reset} = useForm()
     
     const onSubmit = () =>{
+        Swal.fire(
+            "Guardado",
+            "El producto se guardó correctamente",
+            `success`
+        )
         reset()
     }
     return(
