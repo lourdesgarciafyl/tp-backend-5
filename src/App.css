@@ -19,6 +19,8 @@
 .mainSection{
   flex-grow: 1;
 }
+
+/*Pagina administrador*/
 .tituloDestacado{
   color: var(--destacado);
 }
@@ -52,4 +54,11 @@
 
 .btnEliminar:hover {
   background-color: rgb(250, 87, 87);
+}
+/*Estilos para el formulario crear y editar*/
+.formControl{
+  color: var(--fondomasoscuro);
+}
+.cardForm{
+  background-color: var(--letras);
 }
