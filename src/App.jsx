@@ -12,9 +12,7 @@ function App() {
 
   return (
     <>
-    <Navegacion></Navegacion>
-    <Login></Login>
- <Footer></Footer>
+   
     </>
   )
 }
