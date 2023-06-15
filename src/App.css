@@ -25,11 +25,22 @@
   flex-grow: 1;
 }
 
+/* Página inicio */
 .bannerInicio{
   object-fit: cover;
   height: 400px;
   width: 100%;
 }
+.cardsInicio{
+  background-color: var(--fondomasoscuro);
+}
+.badgeInicio{
+ color: var(--destacado)
+}
+ul {
+  list-style: none;
+}
+
 
 /*Pagina administrador*/
 .tituloDestacado{
