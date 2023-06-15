@@ -9,7 +9,7 @@ const Error404 = () => {
             <img
         src={error}
         alt="error 404"
-        className="imgError img-fluid p-4 w-50"
+        className="imgError img-fluid p-4  w-lg-50"
       />
       
       <div>
