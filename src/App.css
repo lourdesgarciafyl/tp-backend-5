@@ -25,6 +25,12 @@
   flex-grow: 1;
 }
 
+.bannerInicio{
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+
 /*Pagina administrador*/
 .tituloDestacado{
   color: var(--destacado);
