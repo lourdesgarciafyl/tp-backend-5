@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navegacion />
-      <Inicio></Inicio>
+      {/* <Inicio></Inicio> */}
       <Footer />
     </>
   );
