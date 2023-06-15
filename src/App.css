@@ -19,6 +19,7 @@
 .letraDestacada {
   font-family: "Gasoek One", sans-serif;
   color: var(--letras);
+}
 
 .mainSection{
   flex-grow: 1;
@@ -66,7 +67,7 @@
 }
 .cardForm{
   background-color: var(--letras);
-=======
+}
 
 .Navbar {
   background-color: var(--NavbaryFooter);
