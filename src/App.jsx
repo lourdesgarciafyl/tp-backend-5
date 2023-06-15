@@ -7,12 +7,19 @@ import Navegacion from "./components/common/Navbar";
 import Footer from "./components/common/Footer";
 import DetalleReceta from "./components/views/DetalleReceta";
 import Login from "./components/views/Login";
+import {BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
 
   return (
     <>
-   
+      <BrowserRouter>
+      <Navegacion></Navegacion>
+      <Routes>
+        
+      </Routes>
+      <Footer></Footer>
+    </BrowserRouter>
     </>
   )
 }

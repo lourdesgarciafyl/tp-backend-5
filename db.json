@@ -9,6 +9,7 @@
       ],
     "recetas":[
         {
+            "id": 1,
             "nombre": "Ensalada César",
             "ingredientes": "1 lechuga romana, 150 gramos de pollo a la parrilla, 50 gramos de queso parmesano rallado, Crutones, Aceite de oliva",
             "dificultad": "Fácil",
@@ -17,6 +18,7 @@
             "imagen": "https://ejemplo.com/imagen-ensalada-cesar.jpg"
           },
           {
+            "id": 2,
             "nombre": "Sopa de calabaza",
             "ingredientes": "1 calabaza mediana, 2 zanahorias, 1 cebolla, 2 dientes de ajo, 1 litro de caldo de verduras, Sal y pimienta al gusto, Aceite de oliva",
             "dificultad": "Fácil",
@@ -25,6 +27,7 @@
             "imagen": "https://ejemplo.com/imagen-sopa-calabaza.jpg"
           },
           {
+            "id": 3,
             "nombre": "Espaguetis con albóndigas",
             "ingredientes": "300 gramos de espaguetis, 500 gramos de carne molida, 1 huevo, 1 cebolla picada, 2 dientes de ajo picados, 400 gramos de salsa de tomate, 1 cucharadita de orégano, Sal y pimienta al gusto, Aceite de oliva",
             "dificultad": "Media",
@@ -33,6 +36,7 @@
             "imagen": "https://ejemplo.com/imagen-espaguetis-albondigas.jpg"
           },
           {
+            "id": 4,
             "nombre": "Tacos de pollo",
             "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
             "dificultad": "Fácil",
