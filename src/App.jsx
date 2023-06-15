@@ -13,7 +13,7 @@ function App() {
     <>
       <Navegacion />
       {/* <Inicio></Inicio> */}
-    <Error404></Error404>
+      {/* <Error404></Error404> */}
       <Footer />
     </>
   );

@@ -15,39 +15,37 @@
   --letras: #635063;
 }
 
-
 .letraDestacada {
   font-family: "Gasoek One", sans-serif;
   color: var(--letras);
 }
 
-.mainSection{
+.mainSection {
   flex-grow: 1;
 }
 
 /* Página inicio */
-.bannerInicio{
+.bannerInicio {
   object-fit: cover;
   height: 400px;
   width: 100%;
 }
-.cardsInicio{
+.cardsInicio {
   background-color: var(--fondomasoscuro);
 }
-.badgeInicio{
- color: var(--destacado)
+.badgeInicio {
+  color: var(--destacado);
 }
 ul {
   list-style: none;
 }
 
-
 /*Pagina administrador*/
-.tituloDestacado{
+.tituloDestacado {
   color: var(--destacado);
 }
 
-.tamanioCelda{
+.tamanioCelda {
   max-width: 10rem;
 }
 #btnCrearReceta {
@@ -71,18 +69,18 @@ ul {
 
 .btnEliminar {
   background-color: rgb(250, 111, 111);
-  border-color:  rgb(250, 111, 111);
+  border-color: rgb(250, 111, 111);
 }
 
 .btnEliminar:hover {
   background-color: rgb(250, 87, 87);
-  border-color:  rgb(250, 111, 111);
+  border-color: rgb(250, 111, 111);
 }
 /*Estilos para el formulario crear y editar*/
-.formControl{
+.formControl {
   color: var(--fondomasoscuro);
 }
-.cardForm{
+.cardForm {
   background-color: var(--letras);
 }
 
@@ -94,10 +92,6 @@ ul {
 .footer {
   background-color: var(--NavbaryFooter);
   color: var(--letras);
-
 }
 
-/* Estilo error */
-.imgError{
-  
-}
+
