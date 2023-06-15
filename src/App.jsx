@@ -16,7 +16,10 @@ function App() {
       <BrowserRouter>
       <Navegacion></Navegacion>
       <Routes>
-        
+      {/* <Route exact path="/" element={<Inicio></Inicio>}></Route>*/}
+      <Route exact path="/login" element={<Login></Login>}></Route>
+      <Route exact path="/detalle" element={<DetalleReceta></DetalleReceta>}></Route>
+      {/* <Route path="*" element={<Error404></Error404>}> </Route> */}
       </Routes>
       <Footer></Footer>
     </BrowserRouter>
