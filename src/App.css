@@ -19,9 +19,15 @@
 .letraDestacada {
   font-family: "Gasoek One", sans-serif;
   color: var(--letras);
+}
 
 .mainSection{
   flex-grow: 1;
+}
+
+/*Pagina Detalle de Receta*/
+.fondoDetalle {
+  background-color: var(--fondomasoscuro);
 }
 
 /*Pagina administrador*/
@@ -66,7 +72,7 @@
 }
 .cardForm{
   background-color: var(--letras);
-=======
+}
 
 .Navbar {
   background-color: var(--NavbaryFooter);
@@ -78,3 +84,4 @@
   color: var(--letras);
 
 }
+
