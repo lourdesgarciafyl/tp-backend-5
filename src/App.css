@@ -40,6 +40,15 @@ ul {
   list-style: none;
 }
 
+
+
+
+/*Pagina Detalle de Receta*/
+.fondoDetalle {
+  background-color: var(--fondomasoscuro);
+}
+
+
 /*Pagina administrador*/
 .tituloDestacado {
   color: var(--destacado);
