@@ -1,12 +1,12 @@
 import { Form, Button, Container, Card } from "react-bootstrap";
-
+import  {login} from "../helpers/queries"
 
 const Login = () => {
-
+ login();
   return (
     <Container className="mainSection col-md-6">
       <Card className="my-5 fondoDetalle  shadow-lg">
-        <Card.Header as="h5">Ingresar a <b  >Rolling Flavors</b> </Card.Header>
+        <Card.Header as="h5">Ingresar a <b>Rolling Flavors</b> </Card.Header>
         <Card.Body>
           <Form className="">
             <Form.Group className="mb-3  " controlId="formBasicEmail">
