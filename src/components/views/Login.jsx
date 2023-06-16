@@ -1,6 +1,7 @@
 import { Form, Button, Container, Card } from "react-bootstrap";
 import { login } from "../helpers/queries";
 import { useForm } from "react-hook-form";
+import Swal from "sweetalert2";
 
 const Login = () => {
   const {
@@ -16,7 +17,7 @@ const Login = () => {
       if(respuesta){
         console.log(respuesta);
       } else {
-        console.log('mostrar error');
+        Swal.fire('Error', 'Email o password incorrecto', 'error');
       }
     });
   };
