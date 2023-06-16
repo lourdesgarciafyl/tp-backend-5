@@ -12,7 +12,13 @@ const Login = () => {
 
   const onSubmitUsuario = (usuario) => {
     console.log(usuario);
-    login();
+    login(usuario).then((respuesta)=>{
+      if(respuesta){
+        console.log(respuesta);
+      } else {
+        console.log('mostrar error');
+      }
+    });
   };
   return (
     <Container className="mainSection col-md-6">
