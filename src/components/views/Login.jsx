@@ -17,6 +17,7 @@ const Login = () => {
       if(respuesta){
         console.log(respuesta);
         sessionStorage.setItem('usuarioLogeado', JSON.stringify(respuesta.email));
+        Swal.fire('¡Bienvenido!', 'Iniciaste sesión correctamente', 'success')
       } else {
         Swal.fire('Error', 'Email o password incorrecto', 'error');
       }
