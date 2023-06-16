@@ -1,8 +1,10 @@
+import { Button } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import {NavLink, Link} from 'react-router-dom'
 
-function Navegacion() {
+function Navegacion({usuarioLogueado, setUsuarioLogueado}) {
   return (
     <Navbar expand="lg" className="Navbar">
       <Container>
@@ -13,8 +15,16 @@ function Navegacion() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link>Inicio</Nav.Link>
-            <Nav.Link>Administrador</Nav.Link>
-            <Nav.Link>Login</Nav.Link>
+            {
+              (usuarioLogueado.email)? (
+                <>
+                <NavLink end className={'nav-item nav-link'} to={'/administrador'}>Administrador</NavLink>
+                <Button variant='dark'>Logout</Button>
+                </>
+              ) : <NavLink end className={'nav-item nav-link'} to={'/login'}>Login</NavLink>
+            }
+            
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
