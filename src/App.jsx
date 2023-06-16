@@ -15,7 +15,8 @@ import {useState} from "react";
 
 
 function App() {
-  const [usuarioLogueado, setUsuarioLogueado] = useState({});
+  const usuario = JSON.parse(sessionStorage.getItem('usuarioLogueado')) || {};
+  const [usuarioLogueado, setUsuarioLogueado] = useState(usuario);
   // Rutas comentadas: para los componentes que aun no tenemos maquetados.
   // En ruta de administrador queda pendiente agregas las rutas protegidas, cuando tengamos la logica del login
   return (
