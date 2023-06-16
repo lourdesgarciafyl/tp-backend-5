@@ -1,8 +1,14 @@
 import { Form, Button, Container, Card } from "react-bootstrap";
 import  {login} from "../helpers/queries"
+import { useForm } from "react-hook-form";
 
 const Login = () => {
- login();
+ const {register, handleSubmit, formState: {errors}, reset} = useForm();
+
+   const onSubmit = (usuario)=>{
+    console.log(usuario); 
+    login();
+  };
   return (
     <Container className="mainSection col-md-6">
       <Card className="my-5 fondoDetalle  shadow-lg">
