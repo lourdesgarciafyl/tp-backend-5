@@ -12,6 +12,7 @@ import Login from "./components/views/Login";
 import {BrowserRouter, Routes, Route } from "react-router-dom";
 import RutasAdministrador from "./components/routes/RutasAdministrador";
 import {useState} from "react";
+import RutasProtegidas from "./components/routes/RutasProtegidas";
 
 
 function App() {

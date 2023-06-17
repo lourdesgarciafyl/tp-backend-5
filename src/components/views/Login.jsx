@@ -37,7 +37,7 @@ const Login = ({ setUsuarioLogueado }) => {
           Ingresar a <b>Rolling Flavors</b>{" "}
         </Card.Header>
         <Card.Body>
-          <Form className="" onSubmit={handleSubmit(onSubmitUsuario)}>
+          <Form noValidate className="" onSubmit={handleSubmit(onSubmitUsuario)}>
             <Form.Group className="mb-3  " controlId="formBasicEmail">
               <Form.Label>Correo Electronico</Form.Label>
               <Form.Control

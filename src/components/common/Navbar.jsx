@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink, Link, useNavigate } from "react-router-dom";
 
-function Navegacion({ usuarioLogueado, setUsuarioLogueado }) {
+const Navegacion = ({ usuarioLogueado, setUsuarioLogueado }) => {
   const navegacion = useNavigate();
   const logout = () => {
     setUsuarioLogueado({});
@@ -14,17 +14,17 @@ function Navegacion({ usuarioLogueado, setUsuarioLogueado }) {
   return (
     <Navbar expand="lg" className="Navbar">
       <Container>
-        <Navbar.Brand className="letraDestacada">
+        <Navbar.Brand  as={Link} to={"/"} className="letraDestacada">
           Rolling <br /> Flavors
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link>Inicio</Nav.Link>
-            {usuarioLogueado.email ? (
+            <NavLink end className={"nav-item nav-link"} to={"/"}>Inicio</NavLink>
+            {
+            (usuarioLogueado.email)? (
               <>
                 <NavLink
-                  end
                   className={"nav-item nav-link"}
                   to={"/administrador"}
                 >
