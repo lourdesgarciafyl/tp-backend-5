@@ -22,7 +22,7 @@ const Navegacion = ({ usuarioLogueado, setUsuarioLogueado }) => {
           <Nav className="ms-auto">
             <NavLink end className={"nav-item nav-link"} to={"/"}>Inicio</NavLink>
             {
-            (usuarioLogueado.email)? (
+            (usuarioLogueado.nombreUsuario)? (
               <>
                 <NavLink
                   className={"nav-item nav-link"}
