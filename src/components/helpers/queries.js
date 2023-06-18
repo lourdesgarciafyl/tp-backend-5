@@ -49,3 +49,21 @@ export const consultaBorrarReceta = async (id) =>{
       console.log(error);
   }
 }
+
+/* POST crear una receta*/
+
+export const consultaCrearReceta = async (receta) => {
+  try{
+    const respuesta = await fetch(URLRecetas, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(receta)
+    });
+    return respuesta;
+  }catch(error){
+    console.log(error)
+    return null;
+  }
+}
