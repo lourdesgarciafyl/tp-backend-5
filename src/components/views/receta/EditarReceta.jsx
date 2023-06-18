@@ -1,12 +1,33 @@
 import { Form, Button, Card } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
+import { consultaEditarReceta } from "../../helpers/queries";
+import { useNavigate, useParams } from "react-router-dom";
+import { useEffect } from "react";
 
 const EditarReceta = () => {
 
+    const {id} = useParams();
+    const navegacion = useNavigate()
     const {register, handleSubmit, formState: {errors}, reset} = useForm()
-    
-    const onSubmit = () =>{
+
+    const onSubmit = (recetaEditada) =>{
+        consultaEditarReceta(recetaEditada, id).then((respuesta)=>{
+            if(respuesta && respuesta.status === 200){
+                Swal.fire(
+                    "Receta editada",
+                    `La receta ${recetaEditada.nombre} se editó correctamente`,
+                    `success`
+                )
+                navegacion('/administrador')
+            }else{
+                Swal.fire(
+                    `Ocurrió un error`, 
+                    `Intente nuevamente más tarde`, 
+                    `error`
+                    )
+            }
+        })
         Swal.fire(
             "Guardado",
             "La receta se guardó correctamente",
@@ -124,8 +145,8 @@ const EditarReceta = () => {
                     value: 3,
                     message: "Cantidad mínima de caracteres: 3"
                 }, maxLength:{
-                    value: 700,
-                    message: "Cantidad máxima de caracteres: 700"
+                    value: 1500,
+                    message: "Cantidad máxima de caracteres: 1500"
                 }
             })}>
             </Form.Control>

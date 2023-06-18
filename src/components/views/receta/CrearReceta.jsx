@@ -2,11 +2,12 @@ import { Form, Button, Card } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 import { consultaCrearReceta } from "../../helpers/queries";
-
+import { useNavigate } from "react-router-dom";
 const CrearReceta = () => {
 
     const {register, handleSubmit, formState: {errors}, reset} = useForm()
-    
+    const navegacion = useNavigate()
+
     const onSubmit = (recetaNueva) =>{
         consultaCrearReceta(recetaNueva).then((respuestaCreated)=>{
             if(respuestaCreated && respuestaCreated.status === 201){
@@ -16,6 +17,7 @@ const CrearReceta = () => {
                     `success`
                 )
                 reset()
+                navegacion('/administrador');
             }else{
                 Swal.fire(
                     `Ocurrió un error`, 
