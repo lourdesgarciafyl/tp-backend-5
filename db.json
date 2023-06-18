@@ -54,7 +54,58 @@
       "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
     },
     {
-      "id": 9
+      "nombre": "Chocotorta",
+      "ingredientes": "400 gr de dulce de leche,\n400 gr de crema de leche o natilla,\n750 gr de galletitas de chocolate,\nLeche o café para remojar las galletitas,\n50 gr de chocolate (cobertura o de taza) semi amargo,\n50 gr de cacao en polvo",
+      "dificultad": "facil",
+      "tiempo": "60",
+      "instrucciones": "Comenzar a batir el dulce de leche y cuando esté de un color más claro agregar la crema. Batir en el punto más bajo de la batidora hasta que esté a punto letra. Tener sumo cuidado en que no se pase del punto porque sino se corta! Si por esas tragedias de la vida se llegase a cortar: agregarle un chorrito de crema e integrar. Reservar a un costado.\nRemojar cada galletita y colocar en una fuente hasta formar una capa. Colocar una capa de la crema de dulce de leche. Otra capa de galletitas humedecidas y así 4 veces. Llevar a enfriar por 1 hora en refrigerador. Espolvorear con cacao en polvo. Al servir, rallar un poco de chocolate amargo por encima.",
+      "imagen": "https://www.cronica.com.ar/__export/1593154648933/sites/cronica/img/2020/06/26/chocotorta_crop1593154526533.jpg",
+      "id": 10
+    },
+    {
+      "nombre": "Tarta cabsha",
+      "ingredientes": "400 gr de dulce de leche,\n400 gr de crema de leche o natilla,\n750 gr de galletitas de chocolate,\nLeche o café para remojar las galletitas,\n50 gr de chocolate (cobertura o de taza) semi amargo,\n50 gr de cacao en polvo",
+      "dificultad": "facil",
+      "tiempo": "60",
+      "instrucciones": "Comenzar a batir el dulce de leche y cuando esté de un color más claro agregar la crema. Batir en el punto más bajo de la batidora hasta que esté a punto letra. Tener sumo cuidado en que no se pase del punto porque sino se corta! Si por esas tragedias de la vida se llegase a cortar: agregarle un chorrito de crema e integrar. Reservar a un costado.\nRemojar cada galletita y colocar en una fuente hasta formar una capa. Colocar una capa de la crema de dulce de leche. Otra capa de galletitas humedecidas y así 4 veces. Llevar a enfriar por 1 hora en refrigerador. Espolvorear con cacao en polvo. Al servir, rallar un poco de chocolate amargo por encima.",
+      "imagen": "https://www.cronica.com.ar/__export/1593154648933/sites/cronica/img/2020/06/26/chocotorta_crop1593154526533.jpg",
+      "id": 11
+    },
+    {
+      "nombre": "Tarta cabsha",
+      "ingredientes": "400 gr de dulce de leche,\n400 gr de crema de leche o natilla,\n750 gr de galletitas de chocolate,\nLeche o café para remojar las galletitas,\n50 gr de chocolate (cobertura o de taza) semi amargo,\n50 gr de cacao en polvo",
+      "dificultad": "facil",
+      "tiempo": "60",
+      "instrucciones": "Comenzar a batir el dulce de leche y cuando esté de un color más claro agregar la crema. Batir en el punto más bajo de la batidora hasta que esté a punto letra. Tener sumo cuidado en que no se pase del punto porque sino se corta! Si por esas tragedias de la vida se llegase a cortar: agregarle un chorrito de crema e integrar. Reservar a un costado.\nRemojar cada galletita y colocar en una fuente hasta formar una capa. Colocar una capa de la crema de dulce de leche. Otra capa de galletitas humedecidas y así 4 veces. Llevar a enfriar por 1 hora en refrigerador. Espolvorear con cacao en polvo. Al servir, rallar un poco de chocolate amargo por encima.",
+      "imagen": "https://www.cronica.com.ar/__export/1593154648933/sites/cronica/img/2020/06/26/chocotorta_crop1593154526533.jpg",
+      "id": 12
+    },
+    {
+      "nombre": "Budin de chocolate",
+      "ingredientes": "400 gr de dulce de leche,\n400 gr de crema de leche o natilla,\n750 gr de galletitas de chocolate,\nLeche o café para remojar las galletitas,\n50 gr de chocolate (cobertura o de taza) semi amargo,\n50 gr de cacao en polvo",
+      "dificultad": "facil",
+      "tiempo": "60",
+      "instrucciones": "Comenzar a batir el dulce de leche y cuando esté de un color más claro agregar la crema. Batir en el punto más bajo de la batidora hasta que esté a punto letra. Tener sumo cuidado en que no se pase del punto porque sino se corta! Si por esas tragedias de la vida se llegase a cortar: agregarle un chorrito de crema e integrar. Reservar a un costado.\nRemojar cada galletita y colocar en una fuente hasta formar una capa. Colocar una capa de la crema de dulce de leche. Otra capa de galletitas humedecidas y así 4 veces. Llevar a enfriar por 1 hora en refrigerador. Espolvorear con cacao en polvo. Al servir, rallar un poco de chocolate amargo por encima.",
+      "imagen": "https://www.cronica.com.ar/__export/1593154648933/sites/cronica/img/2020/06/26/chocotorta_crop1593154526533.jpg",
+      "id": 13
+    },
+    {
+      "nombre": "Budin de chocolate",
+      "ingredientes": "400 gr de dulce de leche,\n400 gr de crema de leche o natilla,\n750 gr de galletitas de chocolate,\nLeche o café para remojar las galletitas,\n50 gr de chocolate (cobertura o de taza) semi amargo,\n50 gr de cacao en polvo",
+      "dificultad": "facil",
+      "tiempo": "60",
+      "instrucciones": "Comenzar a batir el dulce de leche y cuando esté de un color más claro agregar la crema. Batir en el punto más bajo de la batidora hasta que esté a punto letra. Tener sumo cuidado en que no se pase del punto porque sino se corta! Si por esas tragedias de la vida se llegase a cortar: agregarle un chorrito de crema e integrar. Reservar a un costado.\nRemojar cada galletita y colocar en una fuente hasta formar una capa. Colocar una capa de la crema de dulce de leche. Otra capa de galletitas humedecidas y así 4 veces. Llevar a enfriar por 1 hora en refrigerador. Espolvorear con cacao en polvo. Al servir, rallar un poco de chocolate amargo por encima.",
+      "imagen": "https://www.cronica.com.ar/__export/1593154648933/sites/cronica/img/2020/06/26/chocotorta_crop1593154526533.jpg",
+      "id": 14
+    },
+    {
+      "nombre": "Empanadas de carne",
+      "ingredientes": "12 tapas para empanadas\n1/2 kg. de carne picada\n2 cebollas\n2 dientes de ajo\n1/2 pimiento morrón rojo\n1 tomate\n2 cdas. de puré de tomates\n1 puñado de aceitunas\nPimentón\nComino\nSal y pimienta",
+      "dificultad": "intermedio",
+      "tiempo": "80",
+      "instrucciones": "En una olla con aceite caliente agregar la cebolla y el morrón. Dejar dorar unos minutos y cuando estén a medio cocer (cebolla transparente), agregar el ajo y un poco de sal y pimienta.\nSubir el fuego y agregar de una toda la carne picada. Mover la carne para que no quede pegada. Cuando la carne esté sellada agregar el tomate en cubos y las 2 cdas de puré de tomates. Condimentar con pimenton y comino, un poco más de sal y pimienta y mezclar bien. Tapar (no del todo, dejar un pequeño hueco) y dejar cocinar una media hora revolviendo de a poco.\nSacar del fuego y dejar enfriar en la olla. Agregar las aceitunas picadas y mezclar bien. (En este paso pueden agregar cualquier otra cosa que le quieran poner: huevo duro, pasas, papa, etc)\nRepartir el relleno en las tapas de empanada,  y cerrar con un repulgue tradicional.\nPoner nuestras empanadas de carne en una placa y llevar a horno fuerte hasta que estén doradas y a disfrutar!",
+      "imagen": "https://www.paulinacocina.net/wp-content/uploads/2018/05/empanada2.png",
+      "id": 15
     }
   ]
 }

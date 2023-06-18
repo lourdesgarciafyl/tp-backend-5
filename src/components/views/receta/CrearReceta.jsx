@@ -1,18 +1,29 @@
 import { Form, Button, Card } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
+import { consultaCrearReceta } from "../../helpers/queries";
 
 const CrearReceta = () => {
 
     const {register, handleSubmit, formState: {errors}, reset} = useForm()
     
-    const onSubmit = () =>{
-        Swal.fire(
-            "Guardado",
-            "La receta se guardó correctamente",
-            `success`
-        )
-        reset()
+    const onSubmit = (recetaNueva) =>{
+        consultaCrearReceta(recetaNueva).then((respuestaCreated)=>{
+            if(respuestaCreated && respuestaCreated.status === 201){
+                Swal.fire(
+                    "Receta creada",
+                    `La receta ${recetaNueva.nombre} se creó correctamente`,
+                    `success`
+                )
+                reset()
+            }else{
+                Swal.fire(
+                    `Ocurrió un error`, 
+                    `Intente nuevamente más tarde`, 
+                    `error`
+                    )
+            }
+        })
     }
     return(
         <section className="mainSection container">
@@ -124,8 +135,8 @@ const CrearReceta = () => {
                     value: 3,
                     message: "Cantidad mínima de caracteres: 3"
                 }, maxLength:{
-                    value: 700,
-                    message: "Cantidad máxima de caracteres: 700"
+                    value: 1500,
+                    message: "Cantidad máxima de caracteres: 1500"
                 }
             })}>
             </Form.Control>
