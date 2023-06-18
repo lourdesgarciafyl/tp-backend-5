@@ -1,22 +1,61 @@
 import { Button } from "react-bootstrap";
+import Swal from "sweetalert2";
+import {
+  consultaBorrarReceta,
+  consultaListaRecetas,
+} from "../../helpers/queries";
 
-const ItemReceta = () =>{
-    return(
-        <tr>
-            <td className="text-truncate"># 1</td>
-            <td className="text-truncate">Budín de zanahoria</td>
-            <td className="text-truncate">Dificil</td>
-            <td className="text-truncate">80 minutos</td>
-            <td className="tamanioCelda text-truncate">Ingredientes</td>
-            <td className="tamanioCelda text-truncate">https://www.paulinacocina.net/wp-content/uploads/2020/04/budin-de-zanahoria-800x558.jpg</td>
-            <td className="text-center">
-             <Button className="btnEditar mb-2 mb-lg-0 me-md-1">
-                Editar </Button>
-             <Button className="btnEliminar">
-              Borrar </Button>
+const ItemReceta = ({ receta, setRecetas }) => {
+  const borrarReceta = () => {
+    Swal.fire({
+      title: "Esta seguro de borrar la receta?",
+      text: "No se puede revertir este paso!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Borrar",
+      cancelButtonText: "Cancelar",
+    }).then((result) => {if (result.isConfirmed) {
+   
+        consultaBorrarReceta(receta.id).then((respuesta)=>{
+          console.log(respuesta);
+          if(respuesta.status === 200){
+            Swal.fire(
+              'Receta eliminada',
+              `La receta de ${receta.nombre} fue eliminada correctamente`,
+              'success'
+            );
+         
+            consultaListaRecetas().then((respuesta)=> setRecetas(respuesta))
+          }else{
+            Swal.fire(
+              'Ocurrio un error',
+              `Intente realizar esta operación nuevamente mas tarde`,
+              'success'
+            )
+          }
+        })
+        
+      }
+    })
+  }
+  return (
+    <tr>
+      <td className="text-truncate">{receta.id}</td>
+      <td className="text-truncate">{receta.nombre}</td>
+      <td className="text-truncate">{receta.dificultad}</td>
+      <td className="text-truncate">{receta.tiempo}</td>
+      <td className="tamanioCelda text-truncate">{receta.ingredientes}</td>
+      <td className="tamanioCelda text-truncate">{receta.imagen}</td>
+      <td className="text-center">
+        <Button className="btnEditar mb-2 mb-lg-0 me-md-1">Editar </Button>
+        <Button className="btnEliminar" onClick={borrarReceta}>
+          Borrar{" "}
+        </Button>
       </td>
-        </tr>
-    )
-}
+    </tr>
+  );
+};
 
 export default ItemReceta;
