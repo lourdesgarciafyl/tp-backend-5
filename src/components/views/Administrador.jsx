@@ -1,7 +1,24 @@
 import { Table, Button } from "react-bootstrap";
 import ItemReceta from "./receta/ItemReceta";
+import { useEffect, useState } from "react";
+import { consultaListaRecetas } from "../helpers/queries";
+
 
 const Administrador = () =>{
+const [recetas, setRecetas] = useState([]);
+
+useEffect(()=>{
+
+  consultaListaRecetas().then((respuesta)=>{
+    console.log(respuesta);
+
+    setRecetas(respuesta);
+
+  })
+
+}, [])
+
+
     return(
         <section className="container mainSection">
             <h1 className="mt-2 text-center tituloDestacado letraDestacada">Administracion de recetas</h1>
