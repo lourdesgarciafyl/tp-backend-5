@@ -67,3 +67,20 @@ export const consultaCrearReceta = async (receta) => {
     return null;
   }
 }
+
+/*PUT editar alguna parte de la receta*/
+
+export const consultaEditarReceta = async (receta, id) =>{
+  try{
+      const respuesta = await fetch(URLRecetas+'/'+id, {
+          method: "PUT",
+          headers: {
+              "Content-Type": "application/json"
+          },
+          body: JSON.stringify(receta)
+      });
+      return respuesta;
+  }catch(error){
+      console.log(error);
+  }
+}
