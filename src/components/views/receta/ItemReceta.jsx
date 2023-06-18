@@ -16,28 +16,30 @@ const ItemReceta = ({ receta, setRecetas }) => {
       cancelButtonColor: "#d33",
       confirmButtonText: "Borrar",
       cancelButtonText: "Cancelar",
-    }).then((result) => {
-      if (result.isConfirmed) {
-        consultaBorrarReceta(receta.id).then(() => {
-          console.log(respuesta);
-        });
-        Swal.fire("Receta eliminada!", "Su receta fue eliminada.", "success");
-
-        consultaListaRecetas().then((respuesta)=> setRecetas(respuesta))
-
+    }).then((result) => {if (result.isConfirmed) {
    
-      } else {
-
-        Swal.fire(
-            'Ocurrio un error',
-            `Intente realizar esta operación nuevamente mas tarde`,
-            'success'
-          )
-        }
+        consultaBorrarReceta(receta.id).then((respuesta)=>{
+          console.log(respuesta);
+          if(respuesta.status === 200){
+            Swal.fire(
+              'Receta eliminada',
+              `La receta de ${receta.nombre} fue eliminada correctamente`,
+              'success'
+            );
+         
+            consultaListaRecetas().then((respuesta)=> setRecetas(respuesta))
+          }else{
+            Swal.fire(
+              'Ocurrio un error',
+              `Intente realizar esta operación nuevamente mas tarde`,
+              'success'
+            )
+          }
+        })
         
-      
-    });
-  };
+      }
+    })
+  }
   return (
     <tr>
       <td className="text-truncate">{receta.id}</td>
