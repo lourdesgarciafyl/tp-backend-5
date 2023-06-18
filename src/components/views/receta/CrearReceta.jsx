@@ -87,9 +87,9 @@ const CrearReceta = () => {
                 required: "Debe seleccionar una dificultad"
               })}>
                 <option value="">--Seleccione una opción--</option>
-                <option value="facil">Fácil</option>
-                <option value="intermedio">Intermedio</option>
-                <option value="dificil">Dificil</option>
+                <option value="Facil">Fácil</option>
+                <option value="Intermedio">Intermedio</option>
+                <option value="Dificil">Dificil</option>
             </Form.Select>
             <Form.Text className="text-warning">{errors.dificultad?.message}</Form.Text>
             </Form.Group>

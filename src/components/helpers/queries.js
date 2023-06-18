@@ -39,6 +39,17 @@ export const consultaListaRecetas = async () => {
   }
 }
 
+export const consultaReceta = async (id) =>{
+  try{
+      const respuesta = await fetch(`${URLRecetas}/${id}`);
+      const receta = await respuesta.json();
+      return receta
+  }catch(error){
+      console.log(error);
+  }
+}
+
+/*DELETE para borrar receta*/
 export const consultaBorrarReceta = async (id) =>{
   try{
       const respuesta = await fetch(`${URLRecetas}/${id}`, {
