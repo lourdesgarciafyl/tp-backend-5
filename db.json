@@ -1,49 +1,39 @@
 {
-    "usuarios":[
-        {
-          "id": 1,
-          "nombreUsuario": "admin",
-          "email": "admin@rollingrecetas.com",
-          "password": "123456aA"
-        }
-      ],
-    "recetas":[
-        {
-            "id": 1,
-            "nombre": "Ensalada César",
-            "ingredientes": "1 lechuga romana, 150 gramos de pollo a la parrilla, 50 gramos de queso parmesano rallado, Crutones, Aceite de oliva",
-            "dificultad": "Fácil",
-            "tiempo": "20 minutos",
-            "instrucciones": "1. Lava y corta la lechuga romana en trozos.\n2. Cocina el pollo a la parrilla y córtalo en tiras.\n3. En un recipiente grande, mezcla la lechuga, el pollo, el queso parmesano y los crutones.\n4. Aliña la ensalada con aceite de oliva y aderezo César al gusto.\n5. Mezcla bien todos los ingredientes.\n6. Sirve y disfruta.",
-            "imagen": "https://ejemplo.com/imagen-ensalada-cesar.jpg"
-          },
-          {
-            "id": 2,
-            "nombre": "Sopa de calabaza",
-            "ingredientes": "1 calabaza mediana, 2 zanahorias, 1 cebolla, 2 dientes de ajo, 1 litro de caldo de verduras, Sal y pimienta al gusto, Aceite de oliva",
-            "dificultad": "Fácil",
-            "tiempo": "30 minutos",
-            "instrucciones": "1. Corta la calabaza en trozos y retira las semillas.\n2. Pela y corta las zanahorias, la cebolla y los ajos.\n3. En una olla grande, calienta un poco de aceite de oliva y añade la cebolla y los ajos.\n4. Cocina a fuego medio hasta que estén dorados.\n5. Agrega la calabaza y las zanahorias, y cocina durante unos minutos.\n6. Vierte el caldo de verduras y sazona con sal y pimienta al gusto.\n7. Cocina a fuego medio-bajo durante unos 20 minutos o hasta que la calabaza esté tierna.\n8. Retira del fuego y deja enfriar un poco.\n9. Utiliza una licuadora o una batidora de mano para procesar la sopa hasta obtener una textura suave.\n10. Sirve caliente y disfruta.",
-            "imagen": "https://ejemplo.com/imagen-sopa-calabaza.jpg"
-          },
-          {
-            "id": 3,
-            "nombre": "Espaguetis con albóndigas",
-            "ingredientes": "300 gramos de espaguetis, 500 gramos de carne molida, 1 huevo, 1 cebolla picada, 2 dientes de ajo picados, 400 gramos de salsa de tomate, 1 cucharadita de orégano, Sal y pimienta al gusto, Aceite de oliva",
-            "dificultad": "Media",
-            "tiempo": "1 hora",
-            "instrucciones": "1. Cocina los espaguetis según las instrucciones del paquete y reserva.\n2. En un recipiente, mezcla la carne molida, el huevo, la cebolla picada, el ajo picado, el orégano, la sal y la pimienta.\n3. Forma albóndigas con la mezcla de carne.\n4. Calienta un poco de aceite de oliva en una sartén grande y añade las albóndigas.\n5. Cocina las albóndigas a fuego medio-alto hasta que estén doradas por todos lados.\n6. Agrega la salsa de tomate a la sartén y reduce el fuego a medio-bajo.\n7. Cocina las albóndigas en la salsa durante unos 20-30 minutos, hasta que estén cocidas por completo.\n8. Sirve los espaguetis con las albóndigas y la salsa por encima.\n9. ¡Disfruta de este delicioso plato!",
-            "imagen": "https://ejemplo.com/imagen-espaguetis-albondigas.jpg"
-          },
-          {
-            "id": 4,
-            "nombre": "Tacos de pollo",
-            "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
-            "dificultad": "Fácil",
-            "tiempo": "30 minutos",
-            "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
-            "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
-          }
-    ]
-
+  "usuarios": [
+    {
+      "id": 1,
+      "nombreUsuario": "admin",
+      "email": "admin@rollingrecetas.com",
+      "password": "123456aA"
+    }
+  ],
+  "recetas": [
+    {
+      "id": 1,
+      "nombre": "Ensalada César",
+      "ingredientes": "1 lechuga romana, 150 gramos de pollo a la parrilla, 50 gramos de queso parmesano rallado, Crutones, Aceite de oliva",
+      "dificultad": "Fácil",
+      "tiempo": "20 minutos",
+      "instrucciones": "1. Lava y corta la lechuga romana en trozos.\n2. Cocina el pollo a la parrilla y córtalo en tiras.\n3. En un recipiente grande, mezcla la lechuga, el pollo, el queso parmesano y los crutones.\n4. Aliña la ensalada con aceite de oliva y aderezo César al gusto.\n5. Mezcla bien todos los ingredientes.\n6. Sirve y disfruta.",
+      "imagen": "https://ejemplo.com/imagen-ensalada-cesar.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Sopa de calabaza",
+      "ingredientes": "1 calabaza mediana, 2 zanahorias, 1 cebolla, 2 dientes de ajo, 1 litro de caldo de verduras, Sal y pimienta al gusto, Aceite de oliva",
+      "dificultad": "Fácil",
+      "tiempo": "30 minutos",
+      "instrucciones": "1. Corta la calabaza en trozos y retira las semillas.\n2. Pela y corta las zanahorias, la cebolla y los ajos.\n3. En una olla grande, calienta un poco de aceite de oliva y añade la cebolla y los ajos.\n4. Cocina a fuego medio hasta que estén dorados.\n5. Agrega la calabaza y las zanahorias, y cocina durante unos minutos.\n6. Vierte el caldo de verduras y sazona con sal y pimienta al gusto.\n7. Cocina a fuego medio-bajo durante unos 20 minutos o hasta que la calabaza esté tierna.\n8. Retira del fuego y deja enfriar un poco.\n9. Utiliza una licuadora o una batidora de mano para procesar la sopa hasta obtener una textura suave.\n10. Sirve caliente y disfruta.",
+      "imagen": "https://ejemplo.com/imagen-sopa-calabaza.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Tacos de pollo",
+      "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
+      "dificultad": "Fácil",
+      "tiempo": "30 minutos",
+      "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
+      "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
+    }
+  ]
 }

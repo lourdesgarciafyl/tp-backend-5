@@ -38,3 +38,14 @@ export const consultaListaRecetas = async () => {
     console.log(error);
   }
 }
+
+export const consultaBorrarReceta = async (id) =>{
+  try{
+      const respuesta = await fetch(`${URLRecetas}/${id}`, {
+          method: "DELETE"
+      });
+      return respuesta;
+  }catch(error){
+      console.log(error);
+  }
+}
