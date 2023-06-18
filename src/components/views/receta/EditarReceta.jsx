@@ -1,12 +1,33 @@
 import { Form, Button, Card } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
+import {  consultaEditarReceta, consultaReceta } from "../../helpers/queries";
+import { useNavigate, useParams } from "react-router-dom";
+import { useEffect } from "react";
 
 const EditarReceta = () => {
 
-    const {register, handleSubmit, formState: {errors}, reset} = useForm()
-    
-    const onSubmit = () =>{
+    const {id} = useParams();
+    const navegacion = useNavigate()
+    const {register, handleSubmit, formState: {errors}, setValue} = useForm()
+
+    const onSubmit = (recetaEditada) =>{
+        consultaEditarReceta(recetaEditada, id).then((respuesta)=>{
+            if(respuesta && respuesta.status === 200){
+                Swal.fire(
+                    "Receta editada",
+                    `La receta ${recetaEditada.nombre} se editó correctamente`,
+                    `success`
+                )
+                navegacion('/administrador')
+            }else{
+                Swal.fire(
+                    `Ocurrió un error`, 
+                    `Intente nuevamente más tarde`, 
+                    `error`
+                    )
+            }
+        })
         Swal.fire(
             "Guardado",
             "La receta se guardó correctamente",
@@ -14,6 +35,25 @@ const EditarReceta = () => {
         )
         reset()
     }
+
+    useEffect(()=>{
+        consultaReceta(id).then((respuesta) =>{
+            if(respuesta){
+                setValue(`nombre`, respuesta.nombre);
+                setValue(`ingredientes`, respuesta.ingredientes);
+                setValue(`dificultad`, respuesta.dificultad);
+                setValue(`tiempo`, respuesta.tiempo);
+                setValue(`instrucciones`, respuesta.instrucciones);
+                setValue(`imagen`, respuesta.imagen);
+            }else{
+                Swal.fire(
+                    'Ocurrio un error', 
+                    `No se puede editar el producto, intentelo mas tarde`, 
+                    'error');
+            }
+        })
+    }, [])
+
     return(
         <section className="mainSection container">
            <Card className="cardForm my-2"> 
@@ -74,9 +114,9 @@ const EditarReceta = () => {
                 required: "Debe seleccionar una dificultad"
               })}>
                 <option value="">--Seleccione una opción--</option>
-                <option value="facil">Fácil</option>
-                <option value="intermedio">Intermedio</option>
-                <option value="dificil">Dificil</option>
+                <option value="Facil">Fácil</option>
+                <option value="Intermedio">Intermedio</option>
+                <option value="Dificil">Dificil</option>
             </Form.Select>
             <Form.Text className="text-warning">{errors.dificultad?.message}</Form.Text>
             </Form.Group>
@@ -124,8 +164,8 @@ const EditarReceta = () => {
                     value: 3,
                     message: "Cantidad mínima de caracteres: 3"
                 }, maxLength:{
-                    value: 700,
-                    message: "Cantidad máxima de caracteres: 700"
+                    value: 1500,
+                    message: "Cantidad máxima de caracteres: 1500"
                 }
             })}>
             </Form.Control>

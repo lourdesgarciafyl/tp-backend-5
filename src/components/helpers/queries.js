@@ -39,10 +39,56 @@ export const consultaListaRecetas = async () => {
   }
 }
 
+export const consultaReceta = async (id) =>{
+  try{
+      const respuesta = await fetch(`${URLRecetas}/${id}`);
+      const receta = await respuesta.json();
+      return receta
+  }catch(error){
+      console.log(error);
+  }
+}
+
+/*DELETE para borrar receta*/
 export const consultaBorrarReceta = async (id) =>{
   try{
       const respuesta = await fetch(`${URLRecetas}/${id}`, {
           method: "DELETE"
+      });
+      return respuesta;
+  }catch(error){
+      console.log(error);
+  }
+}
+
+/* POST crear una receta*/
+
+export const consultaCrearReceta = async (receta) => {
+  try{
+    const respuesta = await fetch(URLRecetas, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(receta)
+    });
+    return respuesta;
+  }catch(error){
+    console.log(error)
+    return null;
+  }
+}
+
+/*PUT editar alguna parte de la receta*/
+
+export const consultaEditarReceta = async (receta, id) =>{
+  try{
+      const respuesta = await fetch(URLRecetas+'/'+id, {
+          method: "PUT",
+          headers: {
+              "Content-Type": "application/json"
+          },
+          body: JSON.stringify(receta)
       });
       return respuesta;
   }catch(error){

@@ -1,18 +1,31 @@
 import { Form, Button, Card } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
-
+import { consultaCrearReceta } from "../../helpers/queries";
+import { useNavigate } from "react-router-dom";
 const CrearReceta = () => {
 
     const {register, handleSubmit, formState: {errors}, reset} = useForm()
-    
-    const onSubmit = () =>{
-        Swal.fire(
-            "Guardado",
-            "La receta se guardó correctamente",
-            `success`
-        )
-        reset()
+    const navegacion = useNavigate()
+
+    const onSubmit = (recetaNueva) =>{
+        consultaCrearReceta(recetaNueva).then((respuestaCreated)=>{
+            if(respuestaCreated && respuestaCreated.status === 201){
+                Swal.fire(
+                    "Receta creada",
+                    `La receta ${recetaNueva.nombre} se creó correctamente`,
+                    `success`
+                )
+                reset()
+                navegacion('/administrador');
+            }else{
+                Swal.fire(
+                    `Ocurrió un error`, 
+                    `Intente nuevamente más tarde`, 
+                    `error`
+                    )
+            }
+        })
     }
     return(
         <section className="mainSection container">
@@ -74,9 +87,9 @@ const CrearReceta = () => {
                 required: "Debe seleccionar una dificultad"
               })}>
                 <option value="">--Seleccione una opción--</option>
-                <option value="facil">Fácil</option>
-                <option value="intermedio">Intermedio</option>
-                <option value="dificil">Dificil</option>
+                <option value="Facil">Fácil</option>
+                <option value="Intermedio">Intermedio</option>
+                <option value="Dificil">Dificil</option>
             </Form.Select>
             <Form.Text className="text-warning">{errors.dificultad?.message}</Form.Text>
             </Form.Group>
@@ -124,8 +137,8 @@ const CrearReceta = () => {
                     value: 3,
                     message: "Cantidad mínima de caracteres: 3"
                 }, maxLength:{
-                    value: 700,
-                    message: "Cantidad máxima de caracteres: 700"
+                    value: 1500,
+                    message: "Cantidad máxima de caracteres: 1500"
                 }
             })}>
             </Form.Control>

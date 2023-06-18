@@ -9,29 +9,20 @@
   ],
   "recetas": [
     {
-      "id": 7,
+      "id": 1,
       "nombre": "Tacos de pollo",
       "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
       "dificultad": "Fácil",
-      "tiempo": "30 minutos",
+      "tiempo": "30",
       "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
       "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
     },
     {
-      "id": 8,
+      "id": 2,
       "nombre": "Tacos de pollo",
       "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
       "dificultad": "Fácil",
-      "tiempo": "30 minutos",
-      "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
-      "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
-    },
-    {
-      "id": 4,
-      "nombre": "Tacos de pollo",
-      "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
-      "dificultad": "Fácil",
-      "tiempo": "30 minutos",
+      "tiempo": "30",
       "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
       "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
     },
@@ -40,18 +31,135 @@
       "nombre": "Tacos de pollo",
       "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
       "dificultad": "Fácil",
-      "tiempo": "30 minutos",
+      "tiempo": "30",
       "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
       "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
     },
     {
-      "id": 1,
+      "id": 4,
       "nombre": "Tacos de pollo",
       "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
       "dificultad": "Fácil",
-      "tiempo": "30 minutos",
+      "tiempo": "30",
       "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
       "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Tacos de pollo",
+      "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
+      "dificultad": "Fácil",
+      "tiempo": "30",
+      "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
+      "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Tacos de pollo",
+      "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
+      "dificultad": "Fácil",
+      "tiempo": "30",
+      "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
+      "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Tacos de pollo",
+      "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
+      "dificultad": "Fácil",
+      "tiempo": "30",
+      "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
+      "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
+    },
+    {
+      "nombre": "Tacos de pollo",
+      "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
+      "dificultad": "dificil",
+      "tiempo": "30",
+      "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
+      "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "nombre": "Tacos de pollo",
+      "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
+      "dificultad": "Fácil",
+      "tiempo": "30",
+      "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
+      "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Tacos de pollo",
+      "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
+      "dificultad": "Fácil",
+      "tiempo": "30",
+      "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
+      "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
+    },
+    {
+      "nombre": "Tarta cabsha",
+      "ingredientes": "400 gr de dulce de leche,\n400 gr de crema de leche o natilla,\n750 gr de galletitas de chocolate,\nLeche o café para remojar las galletitas,\n50 gr de chocolate (cobertura o de taza) semi amargo,\n50 gr de cacao en polvo",
+      "dificultad": "Facil",
+      "tiempo": "60",
+      "instrucciones": "Comenzar a batir el dulce de leche y cuando esté de un color más claro agregar la crema. Batir en el punto más bajo de la batidora hasta que esté a punto letra. Tener sumo cuidado en que no se pase del punto porque sino se corta! Si por esas tragedias de la vida se llegase a cortar: agregarle un chorrito de crema e integrar. Reservar a un costado.\nRemojar cada galletita y colocar en una fuente hasta formar una capa. Colocar una capa de la crema de dulce de leche. Otra capa de galletitas humedecidas y así 4 veces. Llevar a enfriar por 1 hora en refrigerador. Espolvorear con cacao en polvo. Al servir, rallar un poco de chocolate amargo por encima.",
+      "imagen": "https://www.cronica.com.ar/__export/1593154648933/sites/cronica/img/2020/06/26/chocotorta_crop1593154526533.jpg",
+      "id": 11
+    },
+    {
+      "nombre": "Tarta cabsha",
+      "ingredientes": "400 gr de dulce de leche,\n400 gr de crema de leche o natilla,\n750 gr de galletitas de chocolate,\nLeche o café para remojar las galletitas,\n50 gr de chocolate (cobertura o de taza) semi amargo,\n50 gr de cacao en polvo",
+      "dificultad": "facil",
+      "tiempo": "60",
+      "instrucciones": "Comenzar a batir el dulce de leche y cuando esté de un color más claro agregar la crema. Batir en el punto más bajo de la batidora hasta que esté a punto letra. Tener sumo cuidado en que no se pase del punto porque sino se corta! Si por esas tragedias de la vida se llegase a cortar: agregarle un chorrito de crema e integrar. Reservar a un costado.\nRemojar cada galletita y colocar en una fuente hasta formar una capa. Colocar una capa de la crema de dulce de leche. Otra capa de galletitas humedecidas y así 4 veces. Llevar a enfriar por 1 hora en refrigerador. Espolvorear con cacao en polvo. Al servir, rallar un poco de chocolate amargo por encima.",
+      "imagen": "https://www.cronica.com.ar/__export/1593154648933/sites/cronica/img/2020/06/26/chocotorta_crop1593154526533.jpg",
+      "id": 12
+    },
+    {
+      "id": 13,
+      "nombre": "Tacos de pollo",
+      "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
+      "dificultad": "Fácil",
+      "tiempo": "30",
+      "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
+      "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
+    },
+    {
+      "nombre": "Budin de chocolate",
+      "ingredientes": "400 gr de dulce de leche,\n400 gr de crema de leche o natilla,\n750 gr de galletitas de chocolate,\nLeche o café para remojar las galletitas,\n50 gr de chocolate (cobertura o de taza) semi amargo,\n50 gr de cacao en polvo",
+      "dificultad": "dificil",
+      "tiempo": "60",
+      "instrucciones": "Comenzar a batir el dulce de leche y cuando esté de un color más claro agregar la crema. Batir en el punto más bajo de la batidora hasta que esté a punto letra. Tener sumo cuidado en que no se pase del punto porque sino se corta! Si por esas tragedias de la vida se llegase a cortar: agregarle un chorrito de crema e integrar. Reservar a un costado.\nRemojar cada galletita y colocar en una fuente hasta formar una capa. Colocar una capa de la crema de dulce de leche. Otra capa de galletitas humedecidas y así 4 veces. Llevar a enfriar por 1 hora en refrigerador. Espolvorear con cacao en polvo. Al servir, rallar un poco de chocolate amargo por encima.",
+      "imagen": "https://www.cronica.com.ar/__export/1593154648933/sites/cronica/img/2020/06/26/chocotorta_crop1593154526533.jpg",
+      "id": 14
+    },
+    {
+      "nombre": "Empanadas de pollo",
+      "ingredientes": "12 tapas para empanadas\n1/2 kg. de carne picada\n2 cebollas\n2 dientes de ajo\n1/2 pimiento morrón rojo\n1 tomate\n2 cdas. de puré de tomates\n1 puñado de aceitunas\nPimentón\nComino\nSal y pimienta",
+      "dificultad": "intermedio",
+      "tiempo": "80",
+      "instrucciones": "En una olla con aceite caliente agregar la cebolla y el morrón. Dejar dorar unos minutos y cuando estén a medio cocer (cebolla transparente), agregar el ajo y un poco de sal y pimienta.\nSubir el fuego y agregar de una toda la carne picada. Mover la carne para que no quede pegada. Cuando la carne esté sellada agregar el tomate en cubos y las 2 cdas de puré de tomates. Condimentar con pimenton y comino, un poco más de sal y pimienta y mezclar bien. Tapar (no del todo, dejar un pequeño hueco) y dejar cocinar una media hora revolviendo de a poco.\nSacar del fuego y dejar enfriar en la olla. Agregar las aceitunas picadas y mezclar bien. (En este paso pueden agregar cualquier otra cosa que le quieran poner: huevo duro, pasas, papa, etc)\nRepartir el relleno en las tapas de empanada,  y cerrar con un repulgue tradicional.\nPoner nuestras empanadas de carne en una placa y llevar a horno fuerte hasta que estén doradas y a disfrutar!",
+      "imagen": "https://www.paulinacocina.net/wp-content/uploads/2018/05/empanada2.png",
+      "id": 15
+    },
+    {
+      "nombre": "Empanadas de carne",
+      "ingredientes": "12 tapas para empanadas\n1/2 kg. de carne picada\n2 cebollas\n2 dientes de ajo\n1/2 pimiento morrón rojo\n1 tomate\n2 cdas. de puré de tomates\n1 puñado de aceitunas\nPimentón\nComino\nSal y pimienta",
+      "dificultad": "intermedio",
+      "tiempo": "80",
+      "instrucciones": "En una olla con aceite caliente agregar la cebolla y el morrón. Dejar dorar unos minutos y cuando estén a medio cocer (cebolla transparente), agregar el ajo y un poco de sal y pimienta.\nSubir el fuego y agregar de una toda la carne picada. Mover la carne para que no quede pegada. Cuando la carne esté sellada agregar el tomate en cubos y las 2 cdas de puré de tomates. Condimentar con pimenton y comino, un poco más de sal y pimienta y mezclar bien. Tapar (no del todo, dejar un pequeño hueco) y dejar cocinar una media hora revolviendo de a poco.\nSacar del fuego y dejar enfriar en la olla. Agregar las aceitunas picadas y mezclar bien. (En este paso pueden agregar cualquier otra cosa que le quieran poner: huevo duro, pasas, papa, etc)\nRepartir el relleno en las tapas de empanada,  y cerrar con un repulgue tradicional. Antes de meterlas en el horno pueden pintarlas con huevo, pero es muy a gusto y opcional.\nPoner nuestras empanadas de carne en una placa y llevar a horno fuerte hasta que estén doradas y a disfrutar!",
+      "imagen": "https://www.paulinacocina.net/wp-content/uploads/2018/05/empanada2.png",
+      "id": 16
+    },
+    {
+      "nombre": "Lasaña",
+      "ingredientes": "4 tapas de empanada (o masa para tarta)\nManteca\nQueso parmesano\nQueso emmental (u otro queso que se derrita)",
+      "dificultad": "Intermedio",
+      "tiempo": "120",
+      "instrucciones": "Armado de la lasaña: colocar en una fuente para horno manteca debajo, esto lo agradecerás a la hora de servirla. Poner un disco de masa para empanadas estirado. Sobre el disco, una buena cantidad de boloñesa. Sobre la boloñesa, una buenísima cantidad de salsa blanca. Sobre la salsa blanca, queso emmental rallado (o similar). Colocar sobre el queso la siguiente tapa de masa. Repetir la operación hasta terminar con una última capa de masa. Sobre esta última capa poner más bechamel y sobre la bechamel, más emmental rallado y, finalmente, parmesano rallado. Esto hará que quede crocante por encima.\nHorneado de la lasaña: este paso es importante: vamos a tapar la lasaña con papel aluminio. Esto es porque necesitamos que se cocine la masa antes de que se dore por arriba. Llevamos a horno medio por unos 20 minutos. Pasados estos 20 minutos vamos a quitar el papel aluminio y dejaremos en el horno hasta que la parte de arriba se vea dorada. ",
+      "imagen": "https://www.paulinacocina.net/wp-content/uploads/2015/05/P1140059.jpg",
+      "id": 17
     }
   ]
 }
