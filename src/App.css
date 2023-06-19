@@ -40,6 +40,15 @@ ul {
   list-style: none;
 }
 
+.imagenCard {
+  object-fit: cover;
+  border-radius:.5em;
+  margin-bottom: 2rem;
+
+
+  
+}
+
 
 
 

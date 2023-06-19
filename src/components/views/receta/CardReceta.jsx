@@ -12,7 +12,7 @@ const CardReceta = ({receta}) => {
   return (
     <Col md={4} ld={3} className="mb-3">
       <Card className="cardsInicio">
-        <Card.Img variant="top" src={pastel}></Card.Img>
+        <Card.Img className="imagenCard" variant="top" src={receta.imagen}></Card.Img>
         <Card.Body>
           <Card.Title className="text-center letraDestacada">
             {receta.nombre}
