@@ -1,8 +1,22 @@
 import { Container, Row } from "react-bootstrap";
 import CardReceta from "./receta/CardReceta";
 import banner from "../../assets/banner2.jpeg";
+import { useEffect, useState } from "react";
+import { consultaListaRecetas } from "../helpers/queries";
+
 
 const Inicio = () => {
+
+  const [recetas, setRecetas] = useState([]);
+
+  useEffect(() => {
+    consultaListaRecetas().then((respuesta) => {
+      console.log(respuesta);
+
+      setRecetas(respuesta);
+    });
+  }, []);
+  
   return (
     <section className="mainSection">
       <img className="bannerInicio" src={banner}></img>
@@ -15,10 +29,11 @@ const Inicio = () => {
         </p>
         <hr />
         <Row>
-          <CardReceta></CardReceta>
-          <CardReceta></CardReceta>
-          <CardReceta></CardReceta>
-          <CardReceta></CardReceta>
+
+        {recetas.map((receta)=>  <CardReceta key={receta.id} receta={receta} setRecetas={setRecetas}></CardReceta> )}
+
+
+     
         </Row>
       </Container>
     </section>
