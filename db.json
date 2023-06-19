@@ -45,15 +45,6 @@
       "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
     },
     {
-      "id": 5,
-      "nombre": "Tacos de pollo",
-      "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
-      "dificultad": "Fácil",
-      "tiempo": "30",
-      "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
-      "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
-    },
-    {
       "id": 6,
       "nombre": "Tacos de pollo",
       "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
@@ -70,15 +61,6 @@
       "tiempo": "30",
       "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
       "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg"
-    },
-    {
-      "nombre": "Tacos de pollo",
-      "ingredientes": "4 tortillas de maíz, 300 gramos de pechuga de pollo cocida y desmenuzada, 1 cebolla picada, 1 pimiento rojo picado, 1 pimiento verde picado, 1 tomate picado, 1 cucharadita de comino, 1 cucharadita de paprika, 1 cucharadita de chile en polvo, Sal y pimienta al gusto, Aceite vegetal",
-      "dificultad": "dificil",
-      "tiempo": "30",
-      "instrucciones": "1. Calienta un poco de aceite vegetal en una sartén grande.\n2. Añade la cebolla, los pimientos y el tomate a la sartén y cocina a fuego medio hasta que estén tiernos.\n3. Agrega el pollo desmenuzado a la sartén y mezcla bien con las verduras.\n4. Condimenta con el comino, la paprika, el chile en polvo, la sal y la pimienta.\n5. Cocina por unos minutos más para que los sabores se mezclen.\n6. Calienta las tortillas de maíz en otra sartén o en el horno.\n7. Rellena cada tortilla con la mezcla de pollo y verduras.\n8. Sirve los tacos calientes y acompáñalos con tus ingredientes favoritos, como salsa, aguacate o queso rallado.\n9. ¡Saborea estos deliciosos tacos de pollo!",
-      "imagen": "https://ejemplo.com/imagen-tacos-pollo.jpg",
-      "id": 8
     },
     {
       "id": 9,

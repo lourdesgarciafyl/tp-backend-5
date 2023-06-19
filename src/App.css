@@ -40,14 +40,19 @@ ul {
   list-style: none;
 }
 
-
-
+.imagenCard {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+  object-position: 60%;
+  padding: 15px;
+  border-radius: 25px;
+}
 
 /*Pagina Detalle de Receta*/
 .fondoDetalle {
   background-color: var(--fondomasoscuro);
 }
-
 
 /*Pagina administrador*/
 .tituloDestacado {
@@ -102,5 +107,3 @@ ul {
   background-color: var(--NavbaryFooter);
   color: var(--letras);
 }
-
-
