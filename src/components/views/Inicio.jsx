@@ -19,11 +19,14 @@ const Inicio = () => {
   
   return (
     <section className="mainSection">
+      <div className="position-relative">
       <img className="bannerInicio" src={banner}></img>
-      <Container>
-        <h1 className="display-4 text-center my-2 letraDestacada">
+      <h1 className="display-4 text-center my-2 letraDestacada tituloRolling">
           Rolling Flavors
-        </h1>
+        </h1> </div>
+     
+      <Container>
+     
         <p className="text-center my-3">
           <em>¡Encontrá aquí las mejores recetas para planificar tu semana!</em>
         </p>
