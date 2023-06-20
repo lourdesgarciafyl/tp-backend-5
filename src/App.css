@@ -26,7 +26,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 79px;
-  color: #ffffff;
+  color:var(--fondo);
   text-shadow: rgb(36, 35, 32) 1px 0 10px;
 }
 .logoInicio {

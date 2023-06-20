@@ -26,7 +26,7 @@ const Inicio = () => {
       </div>
 
       <Container>
-        <p className="text-center my-3">
+        <p className="text-center my-3 fs-2">
           <em>¡Encontrá aquí las mejores recetas para planificar tu semana!</em>
         </p>
         <hr />
