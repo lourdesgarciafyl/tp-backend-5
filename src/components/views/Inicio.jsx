@@ -6,7 +6,6 @@ import { consultaListaRecetas } from "../helpers/queries";
 
 
 const Inicio = () => {
-
   const [recetas, setRecetas] = useState([]);
 
   useEffect(() => {
@@ -16,24 +15,29 @@ const Inicio = () => {
       setRecetas(respuesta);
     });
   }, []);
-  
+
   return (
     <section className="mainSection">
-      <img className="bannerInicio" src={banner}></img>
-      <Container>
-        <h1 className="display-4 text-center my-2 letraDestacada">
+      <div className="position-relative">
+        <img className="bannerInicio" src={banner}></img>
+        <h1 className="display-4 text-center my-2 letraDestacada tituloRolling">
           Rolling Flavors
-        </h1>
-        <p className="text-center my-3">
+        </h1>{" "}
+      </div>
+
+      <Container>
+        <p className="text-center my-3 fs-2">
           <em>¡Encontrá aquí las mejores recetas para planificar tu semana!</em>
         </p>
         <hr />
         <Row>
-
-        {recetas.map((receta)=>  <CardReceta key={receta.id} receta={receta} setRecetas={setRecetas}></CardReceta> )}
-
-
-     
+          {recetas.map((receta) => (
+            <CardReceta
+              key={receta.id}
+              receta={receta}
+              setRecetas={setRecetas}
+            ></CardReceta>
+          ))}
         </Row>
       </Container>
     </section>
