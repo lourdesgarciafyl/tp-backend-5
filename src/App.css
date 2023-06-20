@@ -32,13 +32,11 @@
 .logoInicio {
   text-shadow: rgb(36, 35, 32) 1px 0 6px;
 }
-.logoInicio img  {
-  filter: drop-shadow(0 0 10px black);
-  width: 55px;
-  height: 55px;
+.logoInicio img {
+  filter: drop-shadow(0 1px 3px black);
+  width: 45px;
+  height: 45px;
 }
-
-
 
 .mainSection {
   flex-grow: 1;
@@ -52,6 +50,7 @@
 }
 .cardsInicio {
   background-color: var(--fondomasoscuro);
+  box-shadow: 2px 2px 5px grey;
 }
 .badgeInicio {
   color: var(--destacado);
@@ -111,6 +110,7 @@ ul {
   border-color: rgb(250, 111, 111);
 }
 /*Estilos para el formulario crear y editar*/
+
 .formControl {
   color: var(--fondomasoscuro);
 }
@@ -132,6 +132,4 @@ ul {
   .tituloRolling {
     font-size: 55px;
   }
-
-  /* your styles here */
 }
