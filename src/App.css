@@ -1,5 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Gasoek+One&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gasoek+One&family=Roboto&display=swap");
+
 #root {
+  background-color: var(--fondo);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  /*Variables de Colores*/
+  --fondo: #f7f3d5;
+  --fondomasoscuro: #ffdabf;
+  --NavbaryFooter: #fa9b9b;
+  --destacado: #e88087;
+  --letras: #635063;
+}
+
+.letraDestacada {
+  font-family: "Gasoek One", sans-serif;
+  color: var(--letras);
+}
+
+.tituloRolling {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 79px;
+  color:var(--fondo);
+  text-shadow: rgb(36, 35, 32) 1px 0 10px;
+}
+.logoInicio {
+  text-shadow: rgb(36, 35, 32) 1px 0 6px;
+}
+.logoInicio img {
+  filter: drop-shadow(0 1px 3px black);
+  width: 45px;
+  height: 45px;
+}
+
+.mainSection {
+  flex-grow: 1;
+}
+
+/* Página inicio */
+.bannerInicio {
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+}
+.cardsInicio {
+  background-color: var(--fondomasoscuro);
+  box-shadow: 2px 2px 5px grey;
+}
+.badgeInicio {
+  color: var(--destacado);
+}
+ul {
+  list-style: none;
+}
+
+.imagenCard {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+  object-position: 60%;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+/*Pagina Detalle de Receta*/
+.fondoDetalle {
+  background-color: var(--fondomasoscuro);
+}
+
+/*Pagina administrador*/
+.tituloDestacado {
+  color: var(--destacado);
+}
+
+.tamanioCelda {
+  max-width: 10rem;
+}
+#btnCrearReceta {
+  background-color: var(--destacado);
+  border-color: #f7f3d5;
+}
+
+#btnCrearReceta:hover {
+  background-color: var(--NavbaryFooter);
+}
+
+.btnEditar {
+  background-color: rgb(127, 240, 40);
+  border-color: rgb(127, 240, 40);
+}
+
+.btnEditar:hover {
+  background-color: rgb(171, 255, 107);
+  border-color: rgb(127, 240, 40);
+}
+
+.btnEliminar {
+  background-color: rgb(250, 111, 111);
+  border-color: rgb(250, 111, 111);
+}
+
+.btnEliminar:hover {
+  background-color: rgb(250, 87, 87);
+  border-color: rgb(250, 111, 111);
+}
+/*Estilos para el formulario crear y editar*/
+
+.formControl {
+  color: var(--fondomasoscuro);
+}
+.cardForm {
+  background-color: var(--letras);
+}
+
+.Navbar {
+  background-color: var(--NavbaryFooter);
+  color: var(--letras);
+}
+
+.footer {
+  background-color: var(--NavbaryFooter);
+  color: var(--letras);
+}
+
+@media (max-width: 640px) {
+  .tituloRolling {
+    font-size: 55px;
+  }
 }
