@@ -28,8 +28,17 @@
   font-size: 79px;
   color: #ffffff;
   text-shadow: rgb(36, 35, 32) 1px 0 10px;
-
 }
+.logoInicio {
+  text-shadow: rgb(36, 35, 32) 1px 0 6px;
+}
+.logoInicio img  {
+  filter: drop-shadow(0 0 10px black);
+  width: 55px;
+  height: 55px;
+}
+
+
 
 .mainSection {
   flex-grow: 1;
@@ -119,21 +128,10 @@ ul {
   color: var(--letras);
 }
 
-
-
-
-
-@media (max-width: 640px)  {
-
+@media (max-width: 640px) {
   .tituloRolling {
-  
-   
     font-size: 55px;
-    
-  
   }
-  
-
 
   /* your styles here */
 }
