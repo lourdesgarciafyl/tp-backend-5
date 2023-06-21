@@ -23,13 +23,13 @@ _Para probar este proyecto, clonalo en tu computadora y ejecutá los siguientes 
 
 ```
 npm run dev
-json-server --watch db.json --port 3005
+json-server --watch db.json --port 3004
 ```
 
 
 ### - Para ver el demo:💻
 
-_Ingresá al siguiente link:_ [Rolling Flavors - Netlify](https://crud-recetas-react-netlify.app/) 
+_Ingresá al siguiente link:_ [Rolling Flavors - Netlify](https://crud-recetas-react.netlify.app/) 
 
 
 ---
