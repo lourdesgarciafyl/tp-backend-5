@@ -29,7 +29,7 @@ json-server --watch db.json --port 3004
 
 ### - Para ver el demo:💻
 
-_Ingresá al siguiente link:_ [Rolling Flavors - Netlify](https://crud-recetas-react.netlify.app/) 
+_Ingresá al siguiente link:_ [Rolling Flavors - Netlify](https://rolling-flavors.netlify.app/) 
 
 
 ---
