@@ -153,7 +153,7 @@ const CrearReceta = () => {
             {...register("imagen",{
                 required: "Debe ingresar el link de una imagen",
                 pattern:{
-                    value: /^(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png)$/,
+                    value: /^(http(s?):)([/|.|\w|\s|-])*\.(?:png|jpe?g|gif|svg)$/,
                     message: "Debe ingresar un link terminado en jpg, gif o png"
                   }
             })}>
