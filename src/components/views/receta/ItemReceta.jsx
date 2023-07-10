@@ -44,14 +44,14 @@ const ItemReceta = ({ receta, setRecetas }) => {
   }
   return (
     <tr>
-      <td className="text-truncate">{receta.id}</td>
+      <td className="text-truncate">{receta._id}</td>
       <td className="text-truncate">{receta.nombre}</td>
       <td className="text-truncate">{receta.dificultad}</td>
       <td className="text-truncate">{receta.tiempo}</td>
       <td className="tamanioCelda text-truncate">{receta.ingredientes}</td>
       <td className="tamanioCelda text-truncate">{receta.imagen}</td>
       <td className="text-center">
-        <Button as={Link} to={`/administrador/editar-receta/${receta.id}`} className="btnEditar mb-2 mb-lg-0 me-md-1">Editar </Button>
+        <Button as={Link} to={`/administrador/editar-receta/${receta._id}`} className="btnEditar mb-2 mb-lg-0 me-md-1">Editar </Button>
         <Button className="btnEliminar" onClick={borrarReceta}>
           Borrar{" "}
         </Button>
