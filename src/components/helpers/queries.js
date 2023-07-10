@@ -46,6 +46,7 @@ export const consultaReceta = async (id) =>{
       return receta
   }catch(error){
       console.log(error);
+      return null;
   }
 }
 

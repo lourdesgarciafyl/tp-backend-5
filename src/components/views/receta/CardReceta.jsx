@@ -1,4 +1,5 @@
 import { Col, Card, Badge, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const CardReceta = ({ receta }) => {
   return (
@@ -29,6 +30,9 @@ const CardReceta = ({ receta }) => {
                 </Badge>
               </li>
             </ul>
+          </div>
+          <div className="text-center">
+          <Button variant="primary" as={Link} to={`/detalle/${receta._id}`}>Ver detalle</Button>
           </div>
         </Card.Body>
       </Card>

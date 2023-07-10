@@ -20,7 +20,7 @@ const ItemReceta = ({ receta, setRecetas }) => {
       cancelButtonText: "Cancelar",
     }).then((result) => {if (result.isConfirmed) {
    
-        consultaBorrarReceta(receta.id).then((respuesta)=>{
+        consultaBorrarReceta(receta._id).then((respuesta)=>{
           console.log(respuesta);
           if(respuesta.status === 200){
             Swal.fire(
