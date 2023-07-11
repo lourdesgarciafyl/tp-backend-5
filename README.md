@@ -1,6 +1,6 @@
 # Trabajo práctico: Backend
 
-## Información importante
+## Información importante !
 Este repositorio corresponde al frontend de un CRUD de recetas. Corresponde al práctico de backend de Rolling code.
 
 ## Consigna
