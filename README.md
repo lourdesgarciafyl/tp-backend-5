@@ -1,42 +1,14 @@
-# Rolling Flavors 
+# Trabajo práctico: Backend
 
-_Te presentamos Rolling Flavors, un CRUD de recetas para que tengas a tu alcance tus recetas favoritas._
+## Información importante
+Este repositorio corresponde al frontend de un CRUD de recetas. Corresponde al práctico de backend de Rolling code.
 
----
-## ¿Qué es este proyecto? 🚀
+## Consigna
+Blog de recetas (con frontend) - Dificultad:  🟢🟡🔴
+Unir el proyecto de backend desarrollado en el punto anterior, con el blog de recetas realizado en el módulo de react, agregar además el login y registro de usuario para poder interactuar con los endpoints creados en el punto anterior.
 
-_Es un trabajo práctico realizado como parte del cursado de FullStack Developer en Rolling Code School._
+## Repositorio Backend
+[Backend](https://github.com/lourdesgarciafyl/tp-backend-5backend)
 
-Está realizado con las siguientes tecnologías: 
-- HTML
-- JavaScript
-- CSS
-- Node Js
-- React
-
----
-## Probá Rolling Flavors
-
-### - Para ejecutar Rolling Flavors de forma local: 🔧
-
-_Para probar este proyecto, clonalo en tu computadora y ejecutá los siguientes comandos:_
-
-```
-npm run dev
-json-server --watch db.json --port 3004
-```
-
-
-### - Para ver el demo:💻
-
-_Ingresá al siguiente link:_ [Rolling Flavors - Netlify](https://rolling-flavors.netlify.app/) 
-
-
----
-
-## Autores ✒️
-
-* **María Lourdes García** - [lourdesgarciafyl](https://github.com/lourdesgarciafyl)
-* **Cristian Quiroga** - [cristianq3](https://github.com/cristianq3)
-* **Marisa Indiana Garat** - [Maoi11](https://github.com/Maoi11)
-
+## Autora
+María Lourdes Garcia - [Perfil de Github](https://github.com/lourdesgarciafyl)
