@@ -16,11 +16,11 @@ const Login = ({ setUsuarioLogueado }) => {
   const onSubmitUsuario = (usuario) => {
     console.log(usuario);
     login(usuario).then((respuesta) => {
-      if (respuesta) {
+      if (respuesta && respuesta.status === 200) {
         console.log(respuesta);
         sessionStorage.setItem(
           "usuarioLogueado",
-          JSON.stringify(respuesta.email)
+          JSON.stringify(respuesta.nombreUsuario)
         );
         Swal.fire("¡Bienvenido!", "Iniciaste sesión correctamente", "success");
         setUsuarioLogueado(respuesta);

@@ -3,23 +3,19 @@ const URLRecetas = import.meta.env.VITE_API_RECETA;
 
 export const login = async (usuario) => {
   try {
-    const respuesta = await fetch(URLUsuario);
-    const listaUsuarios = await respuesta.json();
-    const usuarioBuscado = listaUsuarios.find(
-      (itemUsuario) => itemUsuario.email === usuario.email
-    );
-    if (usuarioBuscado) {
-      console.log("email encontrado");
-      if (usuarioBuscado.password === usuario.password) {
-        return usuarioBuscado;
-      } else {
-        console.log("password incorrecto");
-        return null;
-      }
-    } else {
-      console.log("el mail no existe");
-      return null;
-    }
+    const respuesta = await fetch(URLUsuario, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(usuario)  
+    });
+    const datos = await respuesta.json()
+    return {
+      status: respuesta.status,
+      nombreUsuario: datos.nombreUsuario
+    };
+
   } catch (error) {
     console.log(error);
   }
